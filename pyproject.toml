@@ -1,0 +1,15 @@
+[project]
+name = "llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bitsandbytes>=0.46.0",
+    "colorama>=0.4.6",
+    "docling>=2.37.0",
+    "langflow>=1.4.3",
+    "litellm>=1.60.2",
+    "peft>=0.15.2",
+    "trl>=0.17.0",
+]
