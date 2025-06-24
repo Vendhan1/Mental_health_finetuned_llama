@@ -65,7 +65,7 @@ if __name__ == "__main__":
         base_model,
         device_map="auto",
         torch_dtype=torch.float16,
-        token="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",
+        token="ACCESS_TOKEN",
         cache_dir="./workspace"
     )
     print(Fore.CYAN + str(model) + Fore.RESET)
