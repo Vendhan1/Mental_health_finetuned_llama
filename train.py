@@ -37,7 +37,7 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(
         base_model,
         trust_remote_code=True,
-        token="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"
+        token="ACCESS_TOKEN"
     )
 
     dataset = load_dataset('json', data_files='instructions.json', split='train')
